@@ -1,0 +1,77 @@
+@font-face {
+    font-family: "F1Regular";
+    src: url("../fonts/Formula1-Regular-1.ttf") format("truetype");
+    font-weight: 700;
+}
+@font-face {
+    font-family: "F1Wide";
+    src: url("../fonts/Formula1-Black.ttf") format("truetype");
+    font-weight: 700;
+}
+
+p {
+font-family: "F1Regular", Arial, Helvetica, sans-serif;
+}
+
+h1{
+font-family: "F1Regular", Arial, Helvetica, sans-serif;
+}
+
+h2, h3{
+font-family: "F1Wide";
+}
+
+.header{
+background-color: rgb(23, 23, 23);
+padding-right: 85%;
+display: flex;
+font-size: 80%;
+position: absolute;
+top: 0;
+left: 0;
+}
+.bottomer{
+background-color: rgb(23, 23, 23);
+padding-right: 89%;
+display: flex;
+position: absolute;
+bottom: -5;
+left: 0;
+font-size: 80%;
+}
+
+h1{
+position: relative;
+font-size: 200%;
+color: white;
+}
+a{
+padding-left: 30%;
+text-decoration: none;
+}
+h2{
+position: relative;
+font-size: 400%;
+color: rgb(255, 255, 255);
+text-align: center;
+padding-top: 10%;
+}
+h3{
+position: relative;
+font-size: 300%;
+color: white;
+text-align: center;
+}
+p{
+color: white;
+text-align: center;
+
+}
+
+body{
+background-image: url(../asset/imager.png);
+background-size: cover;
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-position: center;
+}
