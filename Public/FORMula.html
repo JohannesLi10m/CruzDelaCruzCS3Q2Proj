@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="2Q Portfolio">
+    <meta name="keywords" content="2Q, Portfolio, Projects, and Web Development">
+    <title>F1: Sign Up</title>
+    <link rel="stylesheet" href="../public/GeneralStyle.css">
+    <link rel="stylesheet" href="../public/FORMula.css">
+    <link rel="icon" href="../asset/F1Logo.png" sizes="32x32" type="image/png">
+</head>
+<body>
+    <div class="header">
+        <a href="../index.html">
+            <img src="../asset/F1Logo.png" height="70" alt="F1" title="Formula 1">
+        </a>  
+        <h1>FullThrottle</h1>
+    </div>
+
+    <form id="form">
+        <label>Name</label>
+        <input type="text" id="name" required><br><br>
+
+        <label>Email</label>
+        <input type="email" id="email" required><br><br>
+
+        <label>Password</label>
+        <input type="password" id="password" required><br><br>
+
+        <label>Confirm Password</label>
+        <input type="password" id="confirmPassword" required><br><br>
+
+        <label>Age</label>
+        <input type="number" id="age" min="1" required><br><br>
+
+        <label>Favorite F1 Team</label>
+        <select id="team" required>
+            <option value="">Choose</option>
+            <option>Red Bull Racing</option>
+            <option>Mercedes</option>
+            <option>Ferrari</option>
+            <option>McLaren</option>
+            <option>Aston Martin</option>
+            <option>Alpine</option>
+            <option>Williams</option>
+            <option>Haas</option>
+            <option>Racing Bulls</option>
+            <option>Audi</option>
+            <option>Cadillac</option>
+        </select><br><br>
+
+        <label>Favorite Driver (Current)</label>
+        <select id="driver" required>
+            <option value="">Choose</option>
+            <option>Max Verstappen</option>
+            <option>Isack Hadjar</option>
+            <option>George Russell</option>
+            <option>Kimi Antonelli</option>
+            <option>Charles Leclerc</option>
+            <option>Lewis Hamilton</option>
+            <option>Lando Norris</option>
+            <option>Oscar Piastri</option>
+            <option>Fernando Alonso</option>
+            <option>Lance Stroll</option>
+            <option>Pierre Gasly</option>
+            <option>Franco Colapinto</option>
+            <option>Carlos Sainz</option>
+            <option>Alex Albon</option>
+            <option>Olivier Bearman</option>
+            <option>Esteban Ocon</option>
+            <option>Liam Lawson</option>
+            <option>Arvid Lindblad</option>
+            <option>Nico Hulkenberg</option>
+            <option>Gabriel Bortoleto</option>
+            <option>Sergio Perez</option>
+            <option>Valtteri Bottas</option>
+            
+        </select><br><br>
+
+        <div class="remember-box">
+            <input type="checkbox" id="remember">
+            <label for="remember">Remember me</label>
+        </div>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+
+    <p id="result"></p>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

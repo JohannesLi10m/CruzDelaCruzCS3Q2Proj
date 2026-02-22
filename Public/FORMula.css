@@ -1,0 +1,112 @@
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#0b0b0b;
+    color:white;
+}
+
+.header{
+    display:flex;
+    align-items:center;
+    gap:15px;
+    background-color:#111;
+    padding:15px 30px;
+    border-bottom:3px solid #e10600;
+}
+
+.header h1{
+    margin:0;
+    font-size:32px;
+    color:#e10600;
+    letter-spacing:1px;
+}
+
+form{
+    background-color:#161616;
+    width:420px;
+    margin:40px auto;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 0 15px rgba(0,0,0,0.6);
+}
+
+label{
+    display:block;
+    margin-bottom:6px;
+    font-size:14px;
+    color:#ddd;
+}
+
+input, select{
+    width:100%;
+    padding:10px;
+    margin-top:4px;
+    margin-bottom:15px;
+    border-radius:6px;
+    border:none;
+    background-color:#222;
+    color:white;
+}
+
+input:focus, select:focus{
+    outline:2px solid #e10600;
+}
+
+#confirmPassword{
+    background-color:#222;
+}
+
+button{
+    padding:10px 18px;
+    border:none;
+    border-radius:6px;
+    cursor:pointer;
+    margin-right:10px;
+    font-weight:bold;
+}
+
+button[type="submit"]{
+    background-color:#e10600;
+    color:white;
+}
+
+button[type="submit"]:hover{
+    background-color:#ff1e1e;
+}
+
+button[type="reset"]{
+    background-color:#444;
+    color:white;
+}
+
+button[type="reset"]:hover{
+    background-color:#666;
+}
+
+#result{
+    text-align:center;
+    margin-top:15px;
+    font-size:16px;
+    font-weight:bold;
+}
+
+.remember-box{
+    display:flex;
+    align-items:center;
+    gap:8px;
+    margin-bottom:15px;
+}
+
+#remember{
+    transform:scale(1.2);
+    cursor:pointer;
+    accent-color:#e10600;
+}
+
+.error{
+    color:#ff4d4d;
+}
+
+.success{
+    color:#00e676;
+}
